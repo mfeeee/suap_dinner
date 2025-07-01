@@ -1,7 +1,7 @@
 from os import getenv
 from .utils import WebDriverSetup
-from .pages import SuapLoginPage, SuapBookMealPage
-
+from .pages.login_page import SuapLoginPage
+from .pages.book_meal_page import SuapBookMealPage
 
 def suap_book_meal():
     web_driver = WebDriverSetup().driver
