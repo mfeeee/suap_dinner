@@ -40,4 +40,4 @@
 ### 3. Pronto!🎉🥳
 
 **`O próprio GitHub ficará responsável por executar o código de forma agendada e garantir a reserva automática de sua refeição.`**  
-> 📝 **Nota**: O script agora é executado **de segunda a sexta-feira, às 08:30 (horário de Brasília)**. Isso é configurado no GitHub Actions com a expressão cron `30 11 * * 1-5`. Lembre-se que o GitHub Actions opera em UTC, então `11:30 UTC` corresponde a `08:30 BRT/BRST` (horário de Brasília, que é UTC-3).
+> 📝 **Nota**: O script agora é executado **de segunda a sexta-feira, às 08:30 (horário de Brasília)**. Isso é configurado no GitHub Actions com a expressão cron `30 08 * * 1-5`.
