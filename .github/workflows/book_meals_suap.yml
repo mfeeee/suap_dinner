@@ -1,7 +1,7 @@
 name: Agendar refeições no SUAP
 on:
   schedule:
-    - cron: '30 11 * * 1-5'  # Executa de segunda a sexta-feira às 11:30
+    - cron: '30 14 * * 1-5'  # Executa de segunda a sexta-feira às 08:30
   workflow_dispatch: 
 30 11 * * 1-5
 jobs:
