@@ -1,9 +1,10 @@
-# 🥗 Suap Meals
+# 🥗 Suap Dinner
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-00FFFF?style=for-the-badge)
 
 **`Sistema para reservas automáticas de refeições`**  
 
+> Esse projeto é uma adaptação do repositório [Suap Meals](https://github.com/ThiagoC-Silva/suap_meals) !!
 > Esse projeto efetua reservas diárias de refeições no restaurante universitário do [IFPI - Campus Parnaíba](https://www.ifpi.edu.br/parnaiba)  
 por meio do [SUAP](https://suap.ifpi.edu.br/accounts/login/?next=/) (Sistema Unificado de Administração Pública) da instituição.  
 
@@ -16,7 +17,7 @@ por meio do [SUAP](https://suap.ifpi.edu.br/accounts/login/?next=/) (Sistema Uni
 
 > ⚠️ **Atenção**: certifique-se de estar com seu **acesso ativo** ao [SUAP](https://suap.ifpi.edu.br/accounts/login/?next=/)!
 
->📝 **Nota**: no momento o script efetua apenas a **reserva do almoço**. 
+>📝 **Nota**: no momento o script efetua apenas a **reserva do jantar**. 
 
 ### 1. Fork do repositório
 
@@ -39,4 +40,4 @@ por meio do [SUAP](https://suap.ifpi.edu.br/accounts/login/?next=/) (Sistema Uni
 ### 3. Pronto!🎉🥳
 
 **`O próprio GitHub ficará responsável por executar o código de forma agendada e garantir a reserva automática de sua refeição.`**  
-> 📝 **Nota**: O script agora é executado **de domingo a quinta-feira, às 21:30 (horário de Brasília)**. Isso é configurado no GitHub Actions com a expressão cron `30 0 * * 0-4`. Lembre-se que o GitHub Actions opera em UTC, então `00:30 UTC` corresponde a `21:30 BRT/BRST` (horário de Brasília, que é UTC-3).
+> 📝 **Nota**: O script agora é executado **de segunda a sexta-feira, às 08:30 (horário de Brasília)**. Isso é configurado no GitHub Actions com a expressão cron `30 11 * * 1-5`. Lembre-se que o GitHub Actions opera em UTC, então `11:30 UTC` corresponde a `08:30 BRT/BRST` (horário de Brasília, que é UTC-3).
