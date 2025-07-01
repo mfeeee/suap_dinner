@@ -4,9 +4,9 @@
 
 **`Sistema para reservas automáticas de refeições`**  
 
-> Esse projeto é uma adaptação do repositório [Suap Meals](https://github.com/ThiagoC-Silva/suap_meals) !!
-> Esse projeto efetua reservas diárias de refeições no restaurante universitário do [IFPI - Campus Parnaíba](https://www.ifpi.edu.br/parnaiba)  
-por meio do [SUAP](https://suap.ifpi.edu.br/accounts/login/?next=/) (Sistema Unificado de Administração Pública) da instituição.  
+> Esse projeto é uma adaptação do repositório [Suap Meals](https://github.com/ThiagoC-Silva/suap_meals) !
+
+> Esse projeto efetua reservas diárias de refeições no restaurante universitário do [IFPI - Campus Parnaíba](https://www.ifpi.edu.br/parnaiba) por meio do [SUAP](https://suap.ifpi.edu.br/accounts/login/?next=/) (Sistema Unificado de Administração Pública) da instituição.  
 
 ## Ferramentas
 
