@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '30 11 * * 1-5'  # Executa de segunda a sexta-feira às 08:30
   workflow_dispatch: 
-30 11 * * 1-5
+
 jobs:
   suap_meals_script:
     runs-on: ubuntu-latest
